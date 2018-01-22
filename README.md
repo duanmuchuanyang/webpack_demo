@@ -71,9 +71,9 @@
 			
 	>问题：打包完成后会发现图片路径找不到？
 	 //引入绝对路径的概念          
-	[var webSite={
+	var webSite={
 		publicPath:"http://192.168.0.180:8080/"
-	}]  
+	}  
 	module.exports={
     entry:"./src/entry.js",
     output:{
