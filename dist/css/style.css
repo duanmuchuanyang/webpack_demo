@@ -1,6 +1,10 @@
 body{
     background-color: yellow
 }
+img{
+    width:46px;
+    height:52px;
+}
 #demo1{
     width:200px;
     height:300px;

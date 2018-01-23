@@ -42,6 +42,10 @@ module.exports={
                         outputPath:"./images/"
                     }
                 }]
+            },
+            {
+                test: /\.(htm|html)$/i,
+                use: 'html-withimg-loader'
             }
         ]
     },
